@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iFrame</title> <!--Es una etiqueta marco y aqui le dijimos que colocara dentro una pagina-->
+    <!--FUNCIONA CON LINK,PAGINAS LOCALES-->
+</head>
+
+<body>
+    <ul>
+        <li><a href="https://es.wikipedia.org/wiki/Ferrari" target="iframe_demo">Ferrari</a></li>
+        <!--con target y nombre del marco carga el url dentro de la pagina-->
+        <li><a href="https://es.wikipedia.org/wiki/Lamborghini" target="iframe_demo">Lamborghini</a></li>
+    </ul>
+    <iframe name="iframe_demo" src="https://es.wikipedia.org/wiki/Wiki"
+        style="width:100%;height:680px; border:  none;"></iframe>
+</body>
+
+</html>
