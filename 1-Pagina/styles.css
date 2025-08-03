@@ -1,0 +1,14 @@
+p {
+    color: red;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.columna {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px;
+    padding: 20px;
+}
